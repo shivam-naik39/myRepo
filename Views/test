@@ -1,0 +1,527 @@
+Actual yes, yes starting yes
+recording started yeah I'm sharing my screen. Yeah we can
+see your screen. So today I was going to give you demo both
+these user management utility WP1. So PX is he this is the main
+thing for all the utilities who can have some access or some
+admin rights for all the utilities like view, copy type,
+system, compare whatever. So for that we need to have these user
+management utility for for that all. So first of all I logged in
+with Super admin user see we have two different logins. One is like the administrator
+login, one is for development. So if you click on this
+administrator login, it will be going for the username and
+password which is pxs admin. It is super admin guy. So for this
+super admin user he can able to see all the pxs utilities as
+well as some configurations and everything. So if I'm trying to
+log in with. This is development so this is
+this is nothing but some non admin users. For example I'm I'm
+one of the Elm user so if I'm trying to log in here so it will
+ask for Elm credentials. For example if I give my login yeah
+my nxf ID so it will take to the Elm login and as well as it will
+go it will redirect to the pxs. So I'm the non I mean nonadmin
+user. So for me see can you see I don't have any utilities I are
+able to see. I'm just able to see whatever that PX is
+developed about version and all. So these and all are these
+environment. Currently we are doing this dev right so that's
+why it is showing us development. If you log in with
+the test QA or something it will show that your environment
+details accordingly. So I will provide. So we need to
+log in with pxs admin, super admin user. So in in the general
+tab go to this user management utility. So here we can able to
+create some groups. OK so for example if I'm trying
+to create some groups, see this is the group we can have create
+groups. So here we have 4-5 different roles. This is for pxs
+role. These and all for Elm process roles, DN roles etm
+ewmgc roles. So first we will talk about these pxs roles. So
+create any group name, give any group name for example. For my user ID for my Anusha
+user ID I'm giving some pxs utilities for example. So for
+for to utilize that utilities see here we have two things
+itilities roles and Elm manager. Itilities is all the things
+whatever we have attribute mapping, linked attributes,
+type, system, compare, update. These user management view, copy
+we can able to see. For example I want to give some
+user management utility only access only access role. I'm
+providing add and close to my user ID. So here we can able to
+search non admin users. I'm providing my user ID here and
+I'm able to create the group. So after creating the group. The sync should happen. Sync is
+nothing but like if any group was created automatically sync
+will happen and it will show like in progress or pending or
+completed. So currently it is in completed state. So let me log
+into the another browser here through another browser I'm
+accessing this pxs. Development already I was logged
+into the Elm application with my user ID, so that's why it is
+directly navigate with my user credentials to the pxs
+application. Previously I'm just able to see only about section,
+now I'm able to see this user management utility OK, but here
+see we have. Here we have the synchronize all
+settings icon everything. But for here we don't have anything.
+Why? Because I have only user management utility access role.
+I don't have any right? So that I don't able to see that the
+synchronize all button, settings button and everything. So for
+example here if I'm trying to create some group. For non admin users who have
+only access rights means they are not able to see this pxs
+role icon only. They can able to see these four icons. Elm
+process roles only and here also we cannot see any project area.
+See there are it is showing no options. I will tell you why.
+See. So this is because we have only access rights that's why
+I'm not able to create any group or do some actions. Now again I'm going back to the
+another browser with this pxs admin guy. So already I created
+group right? So I'm just going to update that group. Here we
+have edit option. If I click on edit same pxs role we have one
+more thing. This is Elm manager role for one minute. I will show
+you one thing. See here they clearly mention
+allow a user to create, edit, delete or do some sync
+operations of any group. If any project or team area they have
+corresponding Elm manager roles. So to do some access also we
+should have this Elm manager role mandatory. For example I'm
+taking these are the same thing etm. What are the project areas
+we have in DM, etm, GC, ewm. All the project areas will load
+here. So I'm selecting DN application. From here I'm
+selecting any project area. For example I'm selecting this Mig
+RT4 okay. Add and select update. Now I
+just given some Elm manager role only Okay initially it will in
+in pending and it will go for update and later on it will go
+for completed status. Now if I log in again back to the my own
+nxf ID to pxs just refreshing the page. See in DM I should able to see
+that project area only. Why? Because even though I have
+access right I have this project area admin right. So now now
+onwards these Anusha user will be acting as a admin for this
+Mig Route 4 project area. Even though he was an she was an
+access right she have. But this for this particular
+project area she will act as an admin. So now I can able to
+create groups by using this this DN roles as something. If I
+provide for the ETM or GC or something then then I can able
+to see those project areas also here OK see now I'm able to see
+that group name also here but I cannot able to edit it. Why? Because it is showing I
+don't have user management admin role. I have only access right?
+Right that's why it is showing. If I have some admin right then
+I can able to edit this group as well as from my own pxf ID. Now
+now I'm removing this access right? Actually to create any group,
+group name and any role, single role is mandatory. Without user
+any single role is mandatory to create a group. So now I removed
+all the roles that's why it is showing update was in disable
+mode. For example now I'm selecting this user management
+utility. So now I have admin rights admin means I have full
+read and write access for the these user management utilities. Update see now I'm able to see
+the synchronize all button, settings icon, everything so and
+all the groups also. Now I'm able to visible because I am the
+person who is the admin for this particular utility. These are
+that pxs roles difference. Let me go back to the same group
+and remove this. Without any utilities, if I give
+only Elm manager also I can't see any. I will show you see I
+just given only Elm manager role in the group. I didn't provide
+any pxs roles. Then if I log in back to the here say my nxfid to
+the pxs application, see I can't able to see any utility because
+I don't have any utility access or admin rights. So itility access their admin
+rights is mandatory to for a non admin user to utilize it. OK I'm
+going back here. So now I will show you what is the use of that
+DM roles, ATM roles and ewm roles. OK, in add group for example
+select this create some group name. Here I'm selecting Elm DN
+roles. I'm not sure user. So group name I'm provided. So
+for example I select this project area, check clm, Elm
+these. So these are the process roles. These process roles are
+coming from the Elm application. OK, you know all the process
+roles right? For example if you log into any here in El. Sorry,
+in the DN application I'm just showing some project areas. See. In this manage project area we
+have these process roles right? These process roles only. Here
+it is loading. Are you able to understand? Yes I'm not sure. OK
+these process roles only we are able to see here. So for that
+I'm just giving some process roles to my user ID same. One second, this is DN role.
+Check cm. Previously if you see I don't have this project area
+itself. OK, OK, I don't have that project area now. I was
+providing this process roles to my user ID and I'm creating the
+group. OK OK it was created and sync
+also completed. It is showing. So if I go to the DN application
+I was log in with my own ID. So I'm just checking see now I'm
+able to see this check CMR. So if I click on this, go to that
+manage project area, see now I'm able to see only these three
+process roles. OK for example again in edit
+mode. Now why I'm able to edit this group means because I only
+created this group. So now I have all the rights for this
+particular group. I can able to delete. I mean to I can able to
+archive this group. I can able to edit, I can able to add some
+other users for example. Now I'm adding other user for example
+let me add Shiva name. Shiva Ghosh OK Shiva name I'm
+adding. So for this particular project area now on which Shiva
+also will get one of the member, he will also will get added here
+right? The sync is not happened still. It is showing completed. Now let
+me check previously we have only two Elm functional admin and
+Anusha NAV. Yes Shiva name also should get added along with
+these three process roles. OK NAV in edit mode for the same
+project area. So what I will do just I want to
+remove some some process roles. I don't want this commenter or
+administrator. So for this on this both the users I want only
+administrator role. For example I'm removing author and
+commenter process roles only administrator was there. Sync was completed. Let me check
+in the DN project role. If you refresh the page see only I'm
+able to see now administrator the two remaining process roles
+was not there. And one more action we can do here if any
+group contains for example. Please DN application same same
+project area. Maybe these process roles are not there but
+only default role is there. OK removing this administrator role
+but I'm giving only default role. See now I'm able to see only in
+the members. My name and Shiva name was there but there was
+number process roles. Why? Because this Elm application
+itself it is holdings that default role. So that's why it
+won't show this default process roles like that but it will
+have. But my name and Shiva name will
+be added in the project area only. And one more thing we have
+we can able to inactive the group. This is the inactive
+button. So delete icon if you delete. If you inactive any
+group group was queued for archival OK. So if it is
+archived means my name and Shiva name should get removed from
+this project area. See now I'm it is showing. I don't have any access to this
+project area and how to get that inactive list. Means in the grid
+screen same grid screen we have active and inactive groups. If
+you go to the inactive group again we can able to see if you
+want again we can make it as active. Here active button is
+there if you click on that active icon that check box we
+can able to make it as active again. Sometimes we need to refresh the
+page because there is some performance issue Anusha. So if
+I want to give separate user role. Only to you not for Shiva. So
+right now we it has only default value. I want you I want your
+account to be as an as author role or administrator role. So
+that I need to create new group and add your ID there same in
+the same the thing if you want for the same project area you
+can give right all the process roles only for you. Only for my user ID you can have
+the we can remove the users, we can add multiple users, we can
+remove multiple users, remove multiple users, see no. Then now
+I remove Shiva got it only. So initially name is there. So if I
+go back again to the same project area sync is not
+completed. I think OK your name was there. Yeah, yeah, my name was there. I
+just removed Shiva name from the group. See from this group from
+this project area, Shiva name I removed, only my name is there.
+So if I just refresh the page again, I think Shiva name was
+not there. Yeah, only my. Yeah yeah I got this. But in Pxs user
+management, I want you and Shiva both to have. Admin role then we can provide
+same way, same way through the pxs admin, super admin user go
+to the Super admin user in the same group, same group. In edit
+we can add multiple users so that those users also will have
+access and along with this these applic I mean project area
+right. If you want to give admin then
+same thing will happen. But currently we don't have other
+user credentials right? That's why I'm not able to show. You
+can add if I add Shiva's name if he logins with his own nxf ID.
+OK let me try with Elm functional admin right I have. 70775 I has I have this user ID,
+password. So for example if I add these user he's also now he
+was acting as an A non admin user update. Okay again we need
+to check one more thing that user should not be in any other
+group. For example now in the user search this is the search
+bar. I'm just searching with the TLM functional admin user ID. 775 So he was already there in
+some group. OK we need to check he have see he have already user
+management access and along with this these project areas let me
+log in with the LM functional admin user. Now log out from
+this nxf ID my nxf ID. So if if already some Elm
+application was login with my ID means if I click on login
+directly it will navigate to my user ID only. So first of all I
+need to log out from the Elm application from my user ID so
+we'll log out. Nxf 70775 now I'm log in with
+Nxf 70. In this profile I'm seeing see OK if I go to why he
+was able to see these many groups means? Why he can able to see these
+many groups means because he have multiple project area
+access amplm all these three the He have may be other groups can
+contain these project areas access. See these one group cel
+amplm I'm showing if you click on these icon no it will show
+you what are the roles process roles are Elm process roles
+whatever that project area or. The access roles all it will
+show. Why it is showing because I don't have admin role. See it
+has this project area and if you click on these icon it it will
+show you all the users list whatever that users are there in
+the particular group it will show no users in this group. Now
+you understand? Are you able to understand
+there's still confusion? Ohh OK I'm oldest yeah I'm able to
+understand because these groups why it is showing means because
+in other group he have 2-3 extra projects are there. So whatever
+that project area containing some groups are there it will
+show in add group. If I see I can able to see now. See this project areas this is
+Etm project area. Let me check to etm role etm see so whatever
+that project areas these these are only process roles. And one
+more thing all like if you create any group without pxs
+utility access or admin rights whatever. If you give only Elm process
+roles to some users means it will only we have that access
+for the TLM application only. We cannot see able to see any
+utilities in our own pxs application. OK if you give
+utility access along with Elm manager then only we can able to
+see. If you give utility admin rights then only we can able to
+see all the itilities. Okay, okay. Got it. Yeah, this
+is what about normal process functionality. Now let me go
+back to the Super admin user. Okay. Now we have one more
+thing. Let me show you the settings icon. Okay. My user I'm removing. I'm
+removing access rights to my user ID. Yeah, I'm sure. Go a
+little, go a bit slow okay, sure, sure. Sorry yeah. So now I just removed from the
+group. I just removed utility access. OK, so that's why I'm
+not able to say anything now. For example if any super admin
+user go to settings icon here we have one more pxs. Icon What it is showing any
+authenticated user for this particular environment will have
+the specified roles by default. So if I provide now up to now I
+have shown you this user management right? Just for
+example I'm selecting view, copy utility, admin rights, add and
+close. OK just click on update now. Again I'm going back to non
+admin user means my user ID just refresh the pxs application see
+now I'm able to see view copy and I am in the admin for this
+view copy utility. So it is not related to the user specific.
+They clearly mention in the settings button itself see. If any user, any authenticated
+user for this particular environment who are all the
+nonadmin users, if I give some access rights or something, some
+utility rights means all that people all will get or these
+utility rights. OK, now I'm again removing. So we have only
+two rights, one is access and admin, correct? For pxs we have
+only two rights for access. If you want to utilize we need Elm
+manager also only access, we can't do anything. OK, so if we have admin rights
+on the user management utility but we have commentator role in
+Elm project that OK that is we can Elm application is
+completely different vishma. So where Elm application we can
+able to see that project area and that member along with that
+process roles that's it. In the pxs wise I'm telling if
+we have only access then we can we can't able to do anything.
+Elm process roles only applicable for the Elm
+applications only. Particular Elm applications only
+understood. I need to see how that works. Okay. So can I show you one group with
+only with the LM process role? Yes yes yes, yes please. OK, now
+I just removed in the settings icon. I just removed that view
+copy utility. OK again I'm updating. If I go back again to
+my own ID previously I have view copyright. I cannot able to see any utility
+in the pxs application. I'm just talking about Pxs application.
+I'm not talking about yeah not talking about Elm. Okay. Now if
+I go back again super admin guy same some project area. See
+already we created some project area, right? This is the group
+already I created. Okay yeah some default role I
+have given and I given my ID but I I didn't select any pxs role.
+That's why in my own application own nxf ID. In Pxs application
+I'm not able to see any utilities okay, okay. But in the
+project area in the project area I can able to see this project
+area with my Member was added only. This is the difference. This is only applicable for Elm
+application. It if you want some project area access for example
+in the Elm application then we need to provide accordingly the
+process roles team areas also. Now here for example if I
+created some team area, there is no member here OK. Okay, now I'm going back to the
+Super admin user. Super admin user pxs admin just refresh the
+page in the same group. In the same group I'm just giving team
+area access also from a user OK list that OK select team area. It will show you the team area
+name. This is also same thing. It will show you all the process
+roles. If I want to give some process roles I can add and if I
+click on update same sync should happen. It is in pending. Let me
+go to edit mode. Yeah it is completed. Now if I go to same DN
+application to my user ID, if I refresh the page see now I'm
+able to see my name along with the same process roles again.
+Same thing if you remove any process roles here it just
+remove here if I remove see for this group I'm just removing my
+name. I'm removing my name. This process also roles are not was
+there but I removed my name. From the group from the Pxs
+group long use application. I know it's little bit confused.
+Sync will be completed again if I go back to the DN application.
+See now I don't have any access because my user ID was removed
+from the pxs groups. So that's why I can't be able to
+see. That's right, yeah, yeah. So that's why I'm not able to
+see that particular project area. Okay. Then can you go back
+to the pxs, okay, yes to the. Yeah, that's the project area,
+right. That correct. Can you give the utility? If I give you some utility, OK,
+let's take user management only access and view copy also. I'm
+just showing you view copy access. I'm not selecting Elm.
+Don't confuse, Elm manager role is different. Elm process roles
+are different. I didn't select Elm manager role, I only
+selected process roles and utility access. And you can I select my user
+only? Yeah I'm selecting my user. So now again what will
+happen in the Elm applications. In the Elm DN application I can
+able to see that particular project area, this check cm,
+whatever I don't want you to check. I don't want you to check
+check cm but the other the same project that you were. OK that right project area I'm
+able to access in Elm application and as well as if I
+go back to the Pxs application now I'm able to see only this
+user management utility and view copy. But in the add group it
+should not show. Why it is showing check cm on the check cm
+you have access I guess. No, no, no, no. I think maybe in
+another group we need to check. Maybe in another group. If it is
+there means it will come. Check. Yeah, one more group is there.
+Here it is. I have given. Wait, I just remove it. I'm removing that Elm manager
+role because to create any group I told any pxs role is mandatory
+right? So for that simply I just added some utility, I just
+can't. Can't you remove that you that pxs role just remove that
+PSS role from that group in another group, right? Yeah, the yeah, this group can
+you remove. See, to create any group, at least one single role
+should be mandatory. So that's why I'm just adding for for to
+to keep this group active. That's why I just added that
+name. That's it. But I'm not adding if we remove everything
+so the group will not be active, correct. It automatically deleted or not.
+It not active. We cannot able to update the group. See this
+update button itself will be in disable mode. So to create any
+group name, create or edit group name or at least one role is
+mandatory. Now I'm selecting again. See now I'm able to see update
+button. If I remove group name. Group name is required, it is
+mandatory. Update button will be indesirable. If you click on
+cancel, it won't do any action, it will just cancel from the
+group itself. Again I'm going back there same group name
+Anusha this P Access utilities group name see nothing, changes
+will not happen. But I just removed. Previously I
+just removed my user right? It is showing like that no users
+was not there. In this particular group there is only
+this role. Okay again going back to the my user my user ID to Elm
+I mean pxs application. Sorry see now I'm not able to see
+anything in view copy utility also. User management in Add group. If
+I see I can't say anything. Why? Because I have Elm process
+roles. Elm process roles means it only will get reflecting the
+Elm application. Even though I have the utility access, I can't
+do anything. Utility access along with Elm manager role only
+we are able to do some action. Okay, got it. Elm Manager role along with Pxs
+role means we are the admin for that particular project area for
+the pxs side, pxs application side. OK, now again I'm going
+back to the Super admin user pxs admin, this settings icon. Click
+on that settings icon. Now we have LDAP configurations here. OK, these are there are some
+toggle buttons are there for create user, archive user, LDAP,
+group enforcement and all these are the LDAP configuration
+settings. These configuration settings was already done by our
+development team. So currently these host details and all they
+only added and these are currently it was taken from the
+UAT LDAP. I think yes so these LDAP connections was connection
+from the. Uat UAT database. OK, so that's
+why if that LDAP connection was there in any add group, for
+example LDAP groups we have users same project area will
+take because. Just for some process roles I'm
+giving here we have some. See these are all the you can
+see the difference, right? See this icon was showing itself. It
+is as an A group some group. OK, for example if I select this
+test management group, what does mean? Means? Maybe for example
+here for in this place there is a only testing team. Testing
+team might contains Shiva. My name, Amsha name and Sushma
+name maybe we three are the part of this LDAP group. Then if I
+select this particular LDAP group name here means who and
+all have access to this particular LDAP group, they will
+can display. See for example I just creating the group, I'm
+just creating the group wait. Previously, this LDAP group in
+PA Pxs is managed, yes. By whom? These LDAP groups are managing
+by these mxp team only, actually. So Mamata, you know
+right? She's the one actually, if you want to. Add some persons into this
+particular group. If you want to remove some Members from this
+particular group. If you provide some mail to her she will do.
+From the back end we don't have we cannot see anything. From the
+UI part. Now I can't see what are the members are staying
+there. Also I can't say from the help of Mamata only we can we
+can able to do the testing. Actually we are dependent on NXP
+team okay now currently. This completed. Let me go to
+that project area CM check that project area OK. Let me go to
+Team area only. OK. I have given project agenda OK previously if
+you can see only my name and Ulm functional right previously if
+you remember yeah. Yeah. Now able to see Arun Jain,
+Satya Devarakonda and Vikas. OK, OK. These three persons are the
+members of this test management group. These test management
+group contains these three persons Arun Jain, Satya Vikas.
+So that's why these both administrator and author what
+whatever we have given these two process roles. These two process roles are
+getting added. But for example maybe next time this Arun Jain
+was removed, maybe Sushma name only get added into this
+particular group. Means next time then automatic not
+automatically. Already this group was created right already.
+Now this group was created sync also happened today's date was
+third. OK, on this particular date sync
+was happened, test management group sync was happened and that
+three members was added to the project area. Maybe tomorrow
+Arun Jain was removed just removing from that group. I'm
+not telling R Kevin these Arun Jain person might be removed
+from the group, new person might be added, might be Sushma has
+been came to the test management group, then what should happen? If you click on the synchronize
+all button the synchronize all the synchronize all will what
+will it will do means it will do. It will place all the groups
+one by one. It starts syncing see all the groups went into the
+pending, pending or something. OK it won't do for the failed.
+If any anything sync was something happened then it will
+go for failed status. So initially it was failing. Now
+currently most of the cases we are not facing this failed
+state, failed sync status. It will only concentrate on the
+whatever that completed was there. It will all one by one.
+One by one it will start syncing and it will do complete all the
+groups. OK. So after doing this action if I click on the
+synchronize all button right what we'll do now it will take
+the latest data from the DB. So in the DB what will happen?
+Arun Jain was removed, Sushma K was added. So that tune Arun
+Jain should get removed. Here only Sushma K name should come
+here. Sushma Satya Vikas Sony should get come here.
+Understand. Are you able to? Yeah can I can I specifically
+remove only one person from? But the project but not from the
+LDAP group. From the LDAP group only. But we can't directly. We
+can't do through the pxs application through UY part. I
+can't do from the back end only. We can do from back end only
+with the help of Mamata. If you give provide some details for
+example we are sending some mails to Mamata. Sorry. Actually we need to send send
+Mamata like there's some details okay what are the that host name
+we are using? What are the server details we are connecting
+and all. And if you want to provide please can you make just
+now I have given some other details. If you want to add her
+help like just add some member into that you need to provide
+this group name we are using what is that? Where is that?
+Sorry fix as admin. Extra set min sorry yes these
+group name we need to provide test management group can you
+add we need to provide that nxfid, username and can you
+remove these members from the LDAP group means she will do
+from the back end once she was confirmed. If you do from the
+front end. If you do these actions means it should happen. So currently I can't show you
+without mamata's help. So so Rekha suggested me to tell you
+guys verbally this should happen here also same thing in the
+group if you remove any process roles for example now only
+administrator I'm selecting author I'm removing update for
+the same members but the the same 3 members.  Dev is OK. But test environment
+was compared to Dev. It was very slow. OK now it is showing
+completed status in this group. It is having only administrator
+role. If I login, go back to the DN application, same project
+area, check CM enable. See now I'm able to see only
+after role I'm not able to see that sorry administrator role
+I'm not able to see that author role it was removed and from the
+pxs admin, super admin guy if I removed from the group itself.
+If I remove this LDAP group click on update. Sync was completed. So if I go
+back to the project area, if I see now that Arun Jain Satya
+Vikas names was went because they are not part of this
+project area. That's why understood at least it. Yes, I did OK in the same thing.
+See we have one more thing these are if it is this is one more
+thing LDAP group enforcement. It was clearly shown if it is
+enable group can contain an LDAP group or. Specific users, but not both, so
+we can disable this. So OK, let me enable only if it is these
+double button was enable LDAP group enforcement double button
+was enable means for example if any group I must just for dummy
+group I'm just creating. Simply some project area I'm
+selecting. If I try to search my name and you see and they told
+clearly NXP people in Dev and test, we can use utilize only
+these AAC ryme groups only because. We don't know which group
+contains which members. That's why they told for testing
+purpose we can utilize these groups only. So currently if you
+want some Members in test management group already we I
+have told right. I added with the help of Mamata. We added the
+three names OK if I'm trying to add this LDAP group and name see
+it is showing ad enforcement is enabled. A group can contains users or
+LDAP groups but not both simultaneously. So a group
+cannot be created now OK it just removing see with any only user
+or if I remove user only group it can be acceptable anything.
+I'm just for example I'm selecting see now these that pop
+up is not coming why because. Can group can contain at one
+normal user, normal pxs users or LDAP groups. OK if it is. For
+example in the setting same settings icon that same LDAP
+enforcement doggle button was in disable mode means update in Add
+group. Simply I was giving some project
+area Anusha name now AFC. See now that pop up validation
+is not coming and we can able to update I mean create our update
+why because that is in disable mode so group can contains both.
+So now for this automation test, test validation, regression
+project area. These both these group contains
+3 users right that 3 users and my name should get all these
+process roles. Same process again we can able to remove. If
+you archive that group all the process role should get removed
+from the project area. Everything process again same.
+But only difference is we can able to add normal pxs user and
+as well as LDAP groups in a single group. Automation test validation. If I
+go to project area, active project area Anusha my name is
+coming Arun Jain, Satya, Vikas. May be these names and all
+already there in the. Project area itself we didn't
+create Elm application might be while creating this project area
+or something someone has given that process roles and someone
+has added this. So it is not our thing to do. But through Pxs
+application we can able to add some process roles to the
+persons. Can we can you we continue tomorrow or else. Up to now is it okay, yeah we
+can because still we have the create users and archive users
+these also I cannot tell you in the UI part. I can tell you
+verbally archive and these create users part and we have
+APIs, it will take another half an hour. Can we schedule
+tomorrow? Yeah we can. Anybody has any
+issue with that? Yes please suggest if I will ask, OK we
+have APIs also. So tomorrow we will check these audit history
+also. How these user management is taking these audit history
+after now? Is it understandable? Yes, Okay, thank you so much.
+Thank you so much, guys. Thank you. Thank you, anisha. Thank
+you. Yes, bye, bye, all. Bye, Lakshmi, you can stop the
+recording. Yeah, sure. 
